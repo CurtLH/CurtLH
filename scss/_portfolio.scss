@@ -1,12 +1,12 @@
-// Styling for the projects section
-.projects {
+// Styling for the portfolios section
+.portfolios {
   margin-bottom: -15px;
-  .projects-item {
+  .portfolios-item {
     position: relative;
     display: block;
     max-width: 25rem;
     margin-bottom: 15px;
-    .projects-item-caption {
+    .portfolios-item-caption {
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
@@ -15,21 +15,21 @@
       &:hover {
         opacity: 1;
       }
-      .projects-item-caption-content {
+      .portfolios-item-caption-content {
         font-size: 1.5rem;
       }
     }
   }
   @media (min-width: 576px) {
     margin-bottom: -30px;
-    .projects-item {
+    .portfolios-item {
       margin-bottom: 30px;
     }
   }
 }
 
-.projects-modal {
-  .projects-modal-dialog {
+.portfolios-modal {
+  .portfolios-modal-dialog {
     padding: 3rem 1rem;
     min-height: calc(100vh - 2rem);
     margin: 1rem calc(1rem - 8px);
@@ -51,7 +51,7 @@
     }
   }
   @media(min-width: 768px) {
-    .projects-modal-dialog {
+    .portfolios-modal-dialog {
       min-height: 100vh;
       padding: 5rem;
       margin: 3rem calc(3rem - 8px);
